@@ -1,2 +1,8 @@
 # terraform-azurerm-rgpipdisk
-this is for rg, pip and disk
+
+module "resources" {
+    source = .//terraform-azurerm-rgpipdisk
+    rgname = "testrg1"
+    
+
+}
